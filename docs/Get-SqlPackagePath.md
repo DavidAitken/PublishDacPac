@@ -13,7 +13,7 @@ Find path to specific version of SqlPackage.exe
 ## SYNTAX
 
 ```
-Get-SqlPackagePath [-Version] <String> [<CommonParameters>]
+Get-SqlPackagePath [-Version] <String> [[-Use64BitPaths] <Boolean>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -74,6 +74,21 @@ Aliases:
 Required: True
 Position: 1
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Use64BitPaths
+{{ Fill Use64BitPaths Description }}
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 2
+Default value: True
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
