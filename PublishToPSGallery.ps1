@@ -1,3 +1,6 @@
+# Setup
+#    Install-Module -Name PowerShellDataFile -Scope allusers
+
 param (
     [Parameter(Mandatory)]
     [string] $ApiKey
